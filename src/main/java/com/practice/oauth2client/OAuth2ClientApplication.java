@@ -1,13 +1,11 @@
-package com.practice.oauth2.__client;
+package com.practice.oauth2client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
-
+public class OAuth2ClientApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(OAuth2ClientApplication.class, args);
 	}
-
 }
